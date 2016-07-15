@@ -24,8 +24,9 @@ img {
 
 img:hover {
 	box-shadow: 5px 5px 4px;
-	-webkit-transform: scale(1.4,1.4);
-	transform: scale(1.4,1.4);
+	-webkit-transform: scale(3,3);
+	transform: scale(3,3);
+	transform-origin: 100%;
 }
 
 div.header {
@@ -116,13 +117,12 @@ div.content {
 
 #desc img {
 	width: 300px;
-	transition: none;
 }
 
 #desc img:hover {
-	-webkit-transform: none;
-	transform: none;
-	box-shadow: none;
+	-webkit-transform: scale(2,2);
+	transform: scale(2,2);
+	transform-origin: 100% 1%;
 }
 
 #imageButton {
